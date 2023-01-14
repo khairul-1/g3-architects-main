@@ -86,10 +86,28 @@ main{
     font-stretch: expanded;
     color: black;
     font-weight: 700;
-
 }
 .txt4{
     color:#FF900E;
     font-size: 2em;
     font-weight: 700;
+}
+
+/* -- part3 feature you will love & enjoy-------------------
+    ------------------------------------------ -- */
+
+.feature_container{
+    display: flex;
+    border: solid 5px blue;
+}
+.feature{
+    display: flex;
+    border: solid 5px red;
+    flex-direction: column;
+}
+.fourbox{
+    display: grid;
+    border: solid 5px green;
+    grid-template-columns: repeat(1,2fr);
+     ;
 }
