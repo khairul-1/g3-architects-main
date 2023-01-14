@@ -50,7 +50,46 @@ li{
     height: 100%;
         max-width: 1440px;
         max-height: 700px;
-        border: 1px solid #000;
         margin: 15px 0;
         object-fit: contain;
+}
+/* -----------part2 main feature list
+------------------------------------- */
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 301px;
+}
+.fourpic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.fourpictext{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 28%;
+}
+
+.txt2{
+    color: grey;
+    font-weight: 700;
+}
+.txt3{
+    font-size: 2em;
+    font-stretch: expanded;
+    color: black;
+    font-weight: 700;
+
+}
+.txt4{
+    color:#FF900E;
+    font-size: 2em;
+    font-weight: 700;
 }
