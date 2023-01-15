@@ -98,16 +98,56 @@ main{
 
 .feature_container{
     display: flex;
-    border: solid 5px blue;
+    /* border: solid 5px blue; */
+    margin-left: 240px;
+    margin-right: 332px;
 }
 .feature{
     display: flex;
-    border: solid 5px red;
+    /* border: solid 5px red; */
     flex-direction: column;
+    width: 586px;
+    height: 982px;   
+}
+.feature_title{
+    box-shadow: 0px 15px 10px -15px #111; 
 }
 .fourbox{
     display: grid;
-    border: solid 5px green;
-    grid-template-columns: repeat(1,2fr);
-     ;
+    /* border: solid 5px green; */
+    grid-template-columns: repeat(1,1fr);  
+}
+.box-a{
+    padding: 2%;
+    width: 586px;
+    height: 171px;
+    box-shadow: 0px 15px 10px -15px #111; 
+}
+.feature_pic{
+    /* border: solid 5px yellow; */
+    object-fit: contain;
+    position: absolute;
+    
+}
+.feature_pic>img{
+    /* border: solid 5px black; */
+    object-fit: contain;
+    max-width: 708px;
+    max-height: 982px;
+}
+.btn1_txt5{ 
+position: relative;
+/* border: solid 5px black; */
+z-index: 5;
+margin-top: 265%;
+}
+.btn1_txt5>.btn1{
+    width: 342px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 25%;
+    font-size: 300%;
+}
+.txt5{
+    font-size:large;
 }
