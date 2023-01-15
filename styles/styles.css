@@ -135,19 +135,53 @@ main{
     max-width: 708px;
     max-height: 982px;
 }
-.btn1_txt5{ 
+.btn2_txt5{ 
 position: relative;
 /* border: solid 5px black; */
 z-index: 5;
 margin-top: 265%;
 }
-.btn1_txt5>.btn1{
+.btn2_txt5>.btn2{
     width: 342px;
     height: 200px;
     border-radius: 10px;
     margin-left: 25%;
     font-size: 300%;
+
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 0.5%;
 }
 .txt5{
     font-size:large;
+    
 }
+/*------------Part4 facts--------------------
+-------------------------------------------- */
+.facts{
+    /* border: solid 5px black; */
+    margin-left: 23%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+}
+.fact_container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 23%;
+    gap: 2%;
+    /* border: solid 5px black; */
+    width: 100%;
+    max-width: 1440px;
+}
+.fact-b{
+    border: solid 1px orange;
+    padding: 10%;
+    width: 170px;
+    height: 137px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
