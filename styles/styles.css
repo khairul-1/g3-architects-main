@@ -237,6 +237,21 @@ margin-top: 265%;
   height: auto;
   filter: grayscale(100%);
 }
+/*-----------------input form additional--------------------------- */
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left:240px;
+    margin-right:240px;
+    color:green;
+    border: solid 5px green;
+    width: 50%;
+    height: auto;
+
+}
+
 /* -------------footer text ------------- 
 ------------------------------------------*/
 .footer_txt{
@@ -254,17 +269,7 @@ margin-top: 265%;
     flex-wrap: wrap;
     margin-bottom: 3%;
 }
-.form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3%;
-    margin-left:240px;
-    margin-right:240px;
-    color:green;
-    border: solid 5px green;
 
-}
 
 /*------ Media query for small screen less than 600px
 ------------------------------------------------------------- */
